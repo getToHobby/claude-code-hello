@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python test_calculator.py)",
+      "Bash(python -m pytest test_calculator.py -v)",
+      "Bash(git init)",
+      "Bash(dir)",
+      "Bash(git config user.name \"Claude Opus 4.5\")",
+      "Bash(git config user.email \"noreply@anthropic.com\")",
+      "Bash(git add .)"
+    ]
+  }
+}
